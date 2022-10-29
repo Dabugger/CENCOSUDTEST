@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cl.easy.app.AppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.599 s - in cl.easy.app.AppApplicationTests

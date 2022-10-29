@@ -1,0 +1,11 @@
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/config/JwtTokenUtil.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/controller/RequestController.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/AppApplication.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/service/JwtUserDetailsService.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/config/JwtAuthenticationEntryPoint.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/model/JwtRequest.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/controller/JwtAuthenticationController.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/model/JwtResponse.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/config/WebSecurityConfig.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/config/JwtRequestFilter.java
+/Users/francoguajardo/Desktop/CENCOSUD TEST/final/app/src/main/java/cl/easy/app/model/Usuario.java

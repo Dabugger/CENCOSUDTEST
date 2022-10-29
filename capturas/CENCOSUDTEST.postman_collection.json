@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "aec5bd44-bdb6-4432-b501-03e987e8cf84",
+		"name": "CENCOSUDTEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST TOKEN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"cencosuduser\",\n    \"password\": \"easypass\"\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/token",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST BuscarUsuarios",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjZW5jb3N1ZHVzZXIiLCJleHAiOjE2NjcwOTAwNDcsImlhdCI6MTY2NzA3MjA0N30.g4-6M7OCmGFbMdzI6gRENROqzXZRIimobEVEFJlINo7LcYtxyDB-zrjfUhtQC38tDjjIbS2mRzuK41i8eyghtw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"10\",\n    \"first_name\":\"Byron\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/buscarUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"buscarUsuario"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Byron",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ListarUsuarios",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjZW5jb3N1ZHVzZXIiLCJleHAiOjE2NjcwOTAwNDcsImlhdCI6MTY2NzA3MjA0N30.g4-6M7OCmGFbMdzI6gRENROqzXZRIimobEVEFJlINo7LcYtxyDB-zrjfUhtQC38tDjjIbS2mRzuK41i8eyghtw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/listarUsuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"listarUsuarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
